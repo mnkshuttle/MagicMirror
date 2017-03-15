@@ -66,7 +66,7 @@ refreshInterval: 600 //Optional. Default: 3600 = 1 hour
 header: 'Weather in Moncks Corner', 
    position: 'top_left',
     config: {
-        apikey: '172d968ee2290b1d', // private; don't share!
+        apikey: 'insertAPIkey', // private; don't share!
         pws: 'SC/Goose_Creek', //culemborg
         hourly: '1',
         fctext: '1',
@@ -91,7 +91,7 @@ windunits:"mph",
         position: 'top_center',  // This can be any of the regions. Best results in left or right regions.
         header: 'Site News',
         config: { // See 'Configuration options' for more information.
-            accessToken: '9ebb034f2d7cce80fb2a14b147d10983595b1ca5',
+            accessToken: 'insertaccessToken',
             maximumEntries: 60,
             interval: 60,
             lists: [ 196984039 ],
