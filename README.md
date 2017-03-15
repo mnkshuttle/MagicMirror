@@ -21,7 +21,7 @@ Electron, the app wrapper around MagicMirror², only supports the Raspberry Pi 2
 
 Execute the following command on your Raspberry Pi to install Shuttle Kiosk:
 ````
-curl -sL https://raw.githubusercontent.com/shuttlekiosk/MagicMirror/master/installers/raspberry.sh | bash
+curl -sL https://raw.githubusercontent.com/shuttlekiosk/screen/master/installers/raspberry.sh | bash
 ````
 
 ### Manual Installation
