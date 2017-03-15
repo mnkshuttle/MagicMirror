@@ -1,5 +1,5 @@
 
-Shuttle Kiosk is built by the creator of [the original MagicMirror](http://michaelteeuw.nl/tagged/magicmirror) with the incredible help of a [growing community of contributors](https://github.com/MichMich/MagicMirror/graphs/contributors).
+Shuttle Kiosk is based off of [MagicMirror²](http://michaelteeuw.nl/tagged/magicmirror) with the incredible help of a [growing community of contributors](https://github.com/MichMich/MagicMirror/graphs/contributors).
 
 Shuttle Kiosk on a modular plugin system and uses [Electron](http://electron.atom.io/) as an application wrapper. So no more web server or browser installs necessary!
 
@@ -19,7 +19,7 @@ Electron, the app wrapper around MagicMirror², only supports the Raspberry Pi 2
 
 ### Automatic Installer (Raspberry Pi Only!)
 
-Execute the following command on your Raspberry Pi to install MagicMirror²:
+Execute the following command on your Raspberry Pi to install Shuttle Kiosk:
 ````
 curl -sL https://raw.githubusercontent.com/shuttlekiosk/MagicMirror/master/installers/raspberry.sh | bash
 ````
@@ -35,17 +35,13 @@ curl -sL https://raw.githubusercontent.com/shuttlekiosk/MagicMirror/master/insta
 
 **Note:** if you want to debug on Raspberry Pi you can use `npm start dev` which will start the MagicMirror app with Dev Tools enabled.
 
-### Server Only
-
-In some cases, you want to start the application without an actual app window. In this case, execute the following command from the MagicMirror folder: `node serveronly`. This will start the server, after which you can open the application in your browser of choice.
-
 ### Raspberry Configuration & Auto Start.
 
 The following wiki links are helpful in the configuration of your MagicMirror² operating system:
 - [Configuring the Raspberry Pi](https://github.com/MichMich/MagicMirror/wiki/Configuring-the-Raspberry-Pi)
 - [Auto Starting MagicMirror](https://github.com/MichMich/MagicMirror/wiki/Auto-Starting-MagicMirror)
 
-### Updating your MagicMirror²
+### Updating your Shuttle Kiosk
 
 If you want to update your MagicMirror² to the latest version, use your terminal to go to your Magic Mirror folder and type the following command:
 
