@@ -42,7 +42,7 @@ ipWhitelist: [
 				calendars: [
 					{
 						symbol: 'bus ',
-						url: 'https://calendar.google.com/calendar/ical/nupi18vk8fjehdr9ilrc3170e8%40group.calendar.google.com/private-26042e2cfc6adaa95d22ca27991112d7/basic.ics'
+						url: 'googlecalendarurl.com/basic.ics'
 					}
 				]
 			}
@@ -54,7 +54,7 @@ header:'Traffic Map',
 position: 'top_right', // This can be any of the regions.
 config: {
 // See 'Configuration options' for more information.
-url: "http://104.196.151.96/map2.html",
+url: "“http://localhost:8080/modules/MMM-iFrameReload/nameofhtmlfile.html",
 width: "580px", // Optional. Default: 400px
 height: "1100px", // Optional. Default: 800px
 refreshInterval: 600 //Optional. Default: 3600 = 1 hour
